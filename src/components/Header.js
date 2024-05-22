@@ -1,12 +1,11 @@
 import React from "react";
 
-function Header(props) {
-      return (
-        <h1>
-          {/* uncomment the line below to pass the test */}
-          {/* hello from the Header! */}
-        </h1>
-      )
-}
+const Header = () => {
+  return (
+    <header>
+      <h1>hello from the Header!</h1>
+    </header>
+  );
+};
 
 export default Header;
